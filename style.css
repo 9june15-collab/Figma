@@ -1,0 +1,11 @@
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-size: var(--font-size-md);
+  padding: var(--spacing-lg);
+}
+
+h1 {
+  font-size: var(--font-size-lg);
+  color: var(--color-primary);
+}
