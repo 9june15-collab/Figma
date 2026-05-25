@@ -11,13 +11,15 @@ h1 {
 }
 .container {
   position: relative; /* stacking context 생성 */
+  width: 1200px;
+  height: 800px;
 }
 #iframe1 {
   position: absolute;
   top: 0;
   left: 0;
-  width: 800px;
-  height: 600px;
+  width: 1200px;
+  height: 800px;
   z-index: 1; /* 뒤에 */
 }
 
@@ -25,7 +27,7 @@ h1 {
   position: absolute;
   top: 0;
   left: 0;
-  width: 400px;
-  height: 300px;
+  width: 800px;
+  height: 600px;
   z-index: 2; /* 앞에 */
 }
