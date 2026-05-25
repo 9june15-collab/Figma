@@ -9,8 +9,24 @@ h1 {
   font-size: var(--font-size-lg);
   color: var(--color-primary);
 }
+.container {
+  position: relative; /* stacking context 생성 */
+}
 
-iframe {
-    position: absolute; /* 또는 absolute, fixed */
-    z-index: 10;        /* 숫자가 클수록 화면 앞으로 나옵니다 */
+#iframe1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 800px;
+  height: 600px;
+  z-index: 1; /* 뒤에 */
+}
+
+#iframe2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 800px;
+  height: 600px;
+  z-index: 2; /* 앞에 */
 }
